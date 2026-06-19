@@ -1,0 +1,34 @@
+{
+  "name": "site-to-ai-markdown",
+  "version": "0.1.0",
+  "description": "Turn a URL or HTML file into clean Markdown and JSON for AI workflows. Local-first and zero dependency.",
+  "type": "module",
+  "bin": {
+    "site-to-ai-markdown": "./bin/site-to-ai-markdown.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "npm test"
+  },
+  "keywords": [
+    "markdown",
+    "crawler",
+    "ai",
+    "scraping",
+    "local-first",
+    "cli",
+    "zero-dependency"
+  ],
+  "author": "ban10yuu",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
