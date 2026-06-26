@@ -1,7 +1,7 @@
 {
   "name": "site-to-ai-markdown",
   "version": "0.1.0",
-  "description": "Turn a URL or HTML file into clean Markdown and JSON for AI workflows. Local-first and zero dependency.",
+  "description": "Turn a URL or HTML file into clean Markdown and JSON for LLM workflows. No scraper account.",
   "type": "module",
   "bin": {
     "site-to-ai-markdown": "./bin/site-to-ai-markdown.js"
