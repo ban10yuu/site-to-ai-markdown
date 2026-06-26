@@ -4,7 +4,7 @@ import { htmlToAiDocument } from "../src/convert.js";
 
 const help = `site-to-ai-markdown
 
-Turn a URL or HTML file into clean Markdown and JSON for AI workflows.
+Turn a URL or HTML file into clean Markdown and JSON for LLM workflows.
 
 Usage:
   site-to-ai-markdown fetch <url> [--out page.md] [--json page.json]
